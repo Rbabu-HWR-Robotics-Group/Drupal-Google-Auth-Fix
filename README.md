@@ -1,11 +1,11 @@
-#Drupal Google Auth Fixed Version
+# Drupal Google Auth Fixed Version
 
 Rbabu [![Rbabu](http://www.rbabu.me/favicon.png)](http://www.rbabu.me)
 
 
 HWR Robotics [![HWR Robotics](http://hwrrobotics.com/logo.png)](http://hwrrobotics.com/)
 
-##REQUIREMENTS
+## REQUIREMENTS
 
 1. Libraries API - This modules depends on libraries apis module.
 You can download from http://drupal.org/project/libraries
@@ -14,7 +14,7 @@ You can download from http://drupal.org/project/libraries
 from http://code.google.com/p/google-api-php-client/downloads/list
 
 
-##INSTALLATION
+## INSTALLATION
 
 1. Copy this module directory named gauth to your sites/all/modules or
    sites/SITENAME/modules directory.
@@ -27,7 +27,7 @@ from http://code.google.com/p/google-api-php-client/downloads/list
    admin/config/services/gauth_account.
 
 
-##GOOGLE CONFIGURATION
+## GOOGLE CONFIGURATION
 
 1. Visit https://code.google.com/apis/console
 2. Create a new project with appropriate details,
@@ -45,7 +45,7 @@ from http://code.google.com/p/google-api-php-client/downloads/list
    to configuration form of the module.
 
 
-##CONFIGURATION
+## CONFIGURATION
 
 1. Configure the api accounts at admin/config/services/gauth_account.
 
@@ -61,7 +61,7 @@ from http://code.google.com/p/google-api-php-client/downloads/list
 4. Ready to use this account for api access.
 
 
-##API FUNCTIONS
+## API FUNCTIONS
 
 1. gauth_client_get(account_name)
    This function will return a Google_client object.
@@ -105,5 +105,5 @@ from http://code.google.com/p/google-api-php-client/downloads/list
 7. gauth_account_is_authenticated(account_name)
    This function checks if the account is authenticated or not.
 
-##Credits
+## Credits
 Patch Work [![Patch Page](https://www.drupal.org/node/2309857)](https://www.drupal.org/node/2309857)
